@@ -4,6 +4,13 @@ An advanced, cyberpunk-styled iOS security utility engineered for 802.11 wireles
 
 ---
 
+⚠️ Disclaimers & Security Notice
+AI-Assisted Development: Portions of this codebase, architecture, and documentation were written and structured with the assistance of artificial intelligence.
+
+No Security Audit: This application has not undergone a professional third-party security audit. The code interacts with low-level system frameworks and private APIs, and users should review all source files before deployment.
+
+Educational Use Only: This tool is created strictly for educational purposes, personal security research, and academic network auditing. Use responsibly and only on networks and hardware you own or have explicit authorization to test.
+
 ## 🚀 Core Modules
 
 *   **[ 01 // WIFI SCANNER ]**
