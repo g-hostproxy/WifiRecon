@@ -1,37 +1,38 @@
+![WifiRecon Banner](https://github.com/g-hostproxy/WifiRecon/raw/main/Images/Github%20Banner.png)
+
 # >_ WIFI.RECON // iOS Network Reconnaissance & Threat Detection Suite
 
 An advanced, cyberpunk-styled iOS security utility engineered for 802.11 wireless spectrum analysis, automated license plate reader (ALPR) tracking, IP surveillance camera detection, and rogue access point monitoring. Designed for security research and mobile reconnaissance on iOS environments.
 
 ---
 
-⚠️ Disclaimers & Security Notice
-AI-Assisted Development: Portions of this codebase, architecture, and documentation were written and structured with the assistance of artificial intelligence.
-
-No Security Audit: This application has not undergone a professional third-party security audit. The code interacts with low-level system frameworks and private APIs, and users should review all source files before deployment.
-
-Educational Use Only: This tool is created strictly for educational purposes, personal security research, and academic network auditing. Use responsibly and only on networks and hardware you own or have explicit authorization to test.
+> ⚠️ **Disclaimers & Security Notice**
+> 
+> * **AI-Assisted Development:** Portions of this codebase, architecture, and documentation were written and structured with the assistance of artificial intelligence.
+> * **No Security Audit:** This application has not undergone a professional third-party security audit. The code interacts with low-level system frameworks and private APIs, and users should review all source files before deployment.
+> * **Educational Use Only:** This tool is created strictly for educational purposes, personal security research, and academic network auditing. Use responsibly and only on networks and hardware you own or have explicit authorization to test.
 
 ## 🚀 Core Modules
 
-*   **[ 01 // WIFI SCANNER ]**
-    *   Full-spectrum 802.11 AP telemetry, real-time signal strength (RSSI) monitoring, channel tracking, and BSSID discovery utilizing private `MobileWiFi.framework` bindings.
-*   **[ 02 // FLOCK DETECTOR ]**
-    *   Real-time driving sweeps and GPS-logged spatial coordinate tracking specifically tuned to detect Flock Safety Automated License Plate Reader (ALPR) nodes and associated hardware OUIs.
-    *   Instant CSV export capability for collected geo-tagged coordinates.
-*   **[ 03 // RING & IP CAMERAS ]**
-    *   Identifies broadcast signatures and surveillance presence for consumer and enterprise cameras including Blink, Ring, Nest, Wyze, Arlo, Hikvision, and Dahua.
-*   **[ 04 // ROGUE AP / EVIL TWIN ]**
-    *   Heuristic filtering for duplicate SSID clones, channel collisions, and unauthorized hardware signature detection.
-*   **[ 05 // EAP SECURITY AUDIT ]**
-    *   Enterprise-grade authentication and cipher suite inspection embedded directly within individual network inspection profiles.
+* **[ 01 // WIFI SCANNER ]**
+    * Full-spectrum 802.11 AP telemetry, real-time signal strength (RSSI) monitoring, channel tracking, and BSSID discovery utilizing private `MobileWiFi.framework` bindings.
+* **[ 02 // FLOCK DETECTOR ]**
+    * Real-time driving sweeps and GPS-logged spatial coordinate tracking specifically tuned to detect Flock Safety Automated License Plate Reader (ALPR) nodes and associated hardware OUIs.
+    * Instant CSV export capability for collected geo-tagged coordinates.
+* **[ 03 // RING & IP CAMERAS ]**
+    * Identifies broadcast signatures and surveillance presence for consumer and enterprise cameras including Blink, Ring, Nest, Wyze, Arlo, Hikvision, and Dahua.
+* **[ 04 // ROGUE AP / EVIL TWIN ]**
+    * Heuristic filtering for duplicate SSID clones, channel collisions, and unauthorized hardware signature detection.
+* **[ 05 // EAP SECURITY AUDIT ]**
+    * Enterprise-grade authentication and cipher suite inspection embedded directly within individual network inspection profiles.
 
 ---
 
 ## 🎨 Cyberpunk Aesthetic & UI
 
-*   Dynamic Matrix rain background simulation and ambient neon glow layers.
-*   Customizable interface color matrix palettes (**Green, Purple, Teal, Pink**).
-*   Monospaced hacker terminal styling complete with tactile audio-haptic alert feedback.
+* Dynamic Matrix rain background simulation and ambient neon glow layers.
+* Customizable interface color matrix palettes (**Green, Purple, Teal, Pink**).
+* Monospaced hacker terminal styling complete with tactile audio-haptic alert feedback.
 
 ---
 
