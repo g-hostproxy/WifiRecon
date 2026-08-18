@@ -1,6 +1,6 @@
 # >_ WIFI.RECON // iOS Network Reconnaissance & Threat Detection Suite
 
-An advanced, cyberpunk-styled iOS security utility engineered for 802.11 wireless spectrum analysis, automated license plate reader (ALPR) tracking, IP surveillance camera detection, and rogue access point monitoring. Designed for security research and mobile reconnaissance on jailbroken iOS 16 environments.
+An advanced, cyberpunk-styled iOS security utility engineered for 802.11 wireless spectrum analysis, automated license plate reader (ALPR) tracking, IP surveillance camera detection, and rogue access point monitoring. Designed for security research and mobile reconnaissance on iOS environments.
 
 ---
 
@@ -28,11 +28,15 @@ An advanced, cyberpunk-styled iOS security utility engineered for 802.11 wireles
 
 ---
 
-## 📱 Technical Requirements & Privileges
+## 📲 Installation Guide (TrollStore Method)
 
-*   **OS:** iOS 16 (Jailbroken environment, e.g., `palera1n`).
-*   **Privileges:** Requires system platform entitlements and `MobileWiFi.framework` access keys (`platform-application`, `com.apple.wifi.manager-access`) injected via `ldid`.
-*   **Location Services:** Required active GPS authorization (`NSLocationWhenInUseUsageDescription`) to map wireless telemetry data during driving sweeps.
+Because this app utilizes elevated system entitlements and private framework bindings, standard sideloading methods will fail or sandbox the wireless manager. **TrollStore** is the recommended installation method for persistence and full entitlement injection:
+
+1. Ensure your device is running a compatible TrollStore installation version/iOS build.
+2. Build and sign your elevated `.ipa` (e.g., `WifiScanner+_Elevated.ipa`) using the build script with root entitlements.
+3. Transfer the `.ipa` file to your iOS device (via AirDrop, Files app, or a local web server).
+4. Open the file in **TrollStore** and tap **Install**.
+5. Once installed, the application will run with full persistent entitlements without revokes.
 
 ---
 
